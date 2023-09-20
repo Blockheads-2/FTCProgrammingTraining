@@ -1,23 +1,47 @@
 ---
 id: rect-geo
-title: 'Rectangle Geometry'
-author: Darren Yao, Michael Cao, Benjamin Qi, Ben Dodge
-contributors: Allen Li, Andrew Wang, Dong Liu, Ryan Chou
+title: 'Syntax & Other Concepts'
+author: David Backer Peral, Josh Sugino
+contributors: ___
 description:
-  'Problems involving rectangles whose sides are parallel to the coordinate
-  axes.'
-frequency: 1
-prerequisites:
-  - time-comp
+  'Explains the basics of formatting, syntax, and other basic functions of Java.'
 ---
 
-<Resources>
-    <Resource source="IUSACO" title="7.1 - Rectangle Geometry">
-		module is based off this
-	</Resource>
-</Resources>
 
 <br />
+Indentation
+Indentation is used to visually structure your code, making it easier to read and understand. It's essential to follow a consistent indentation style throughout your codebase. One common indentation style is to use tabs for each level of indentation. 
+<br />
+You indent after … 
+	1) Control statements: conditional statements, loops
+	2) Classes & functions 
+	<br />
+Example: 
+<LanguageSection>
+<JavaSection>
+
+```java
+public class Example { 
+	public static void main(String[] args) { 
+		int x = 5; 
+		if (x > 0) { 
+			System.out.println("x is positive"); 
+		} 
+		else { 
+			System.out.println("x is non-positive"); 
+		} 
+	} 
+}
+
+```
+</JavaSection>
+</LanguageSection>
+
+Semicolons
+DON’T forget semicolons. In Java, semicolons are used to terminate statements. 
+You should use a semicolon at the end of each statement. 
+For example:
+
 
 Most problems in this category include only two or three squares or rectangles,
 in which case you can simply draw out cases on paper. This should logically lead
